@@ -1,0 +1,42 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="ToolShare ES Login">
+  <h1 class="text-3xl font-bold font-Poppins text-center text-Black pt-10">
+    Tool Share ES
+  </h1>
+  <img src="/public/Logos/LogoSF.png" alt="Logo" class="w-[80%] m-auto" />
+  <form action="#" class="flex flex-col px-10">
+    <label for="Email" class="text-bold font-Poppins pl-5 font-bold text-sm"
+      >Email*</label
+    >
+    <input
+      type="text"
+      name="Email"
+      class="bg-Blue text-white py-2 rounded-lg text-sm mb-4 pl-5"
+    />
+    <label for="Password" class="text-bold font-Poppins pl-5 font-bold text-sm"
+      >Password*</label
+    >
+    <input
+      type="password"
+      name="Password"
+      class="bg-Blue text-white py-2 rounded-lg text-sm mb-4 pl-5"
+    />
+    <div class="flex gap-2">
+      <input type="checkbox" name="Remember" id="Remember" />
+      <label for="Remember">Recordar contraseña</label>
+    </div>
+    <a
+      href="#"
+      class="bg-Orange text-white text-center my-4 rounded-lg text-md px-2 py-1"
+      >Iniciar sesión</a
+    >
+    <a
+      href="#"
+      class="bg-Blue text-white text-center rounded-lg text-md px-2 py-1 my-4"
+      >Registrarse</a
+    >
+  </form>
+</Layout>

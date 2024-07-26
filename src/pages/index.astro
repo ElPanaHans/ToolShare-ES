@@ -1,0 +1,47 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Nav from "../components/Nav.astro";
+---
+<Layout title="Categorias">
+    <div class="flex p-2 justify-between pt-10">
+        <i class="fa-solid fa-gear text-3xl"></i>
+        <h1 class="text-3xl font-bold">ToolShare ES</h1>
+        <i class="fa-solid fa-message text-3xl"></i>
+    </div>
+  <img src="/public/Logos/LogoSF.png" alt="Logo" class="w-[80%] m-auto" />
+  <section>
+    <h2 class="text-2xl font-bold">Categorias</h2>
+    <div class="grid grid-cols-2 p-4 gap-3 rounded-2xl">
+        <article class="bg-Blue rounded-xl cursor-pointer hover:bg-Orange">
+            <p class="p-2 text-White text-pretty">Excavadora</p>
+            <img src="/public/IMGS/Maquinaria/Excavadora.webp" alt="Excavadora Image">
+        </article>
+
+        <article class="bg-Blue rounded-xl cursor-pointer hover:bg-Orange">
+            <p class="p-2 text-White text-pretty">Grua</p>
+            <img src="/public/IMGS/Maquinaria/Grua.webp" alt="Grua Image">
+        </article>
+
+        <article class="bg-Blue rounded-xl cursor-pointer hover:bg-Orange">
+            <p class="p-2 text-White text-pretty">Tractor</p>
+            <img src="/public/IMGS/Maquinaria/Tractor.webp" alt="Tractor Image">
+        </article>
+
+        <article class="bg-Blue rounded-xl cursor-pointer hover:bg-Orange">
+            <p class="p-2 text-White text-pretty">Perforadora</p>
+            <img src="/public/IMGS/Maquinaria/Perforadora.webp" alt="Perforadora Image">
+        </article>
+
+        <article class="bg-Blue rounded-xl cursor-pointer hover:bg-Orange">
+            <p class="p-2 text-White text-pretty">Taladro de roca</p>
+            <img src="/public/IMGS/Maquinaria/TRoca.webp" alt="Taladro Roca Image">
+        </article>
+
+        <article class="bg-Blue rounded-xl cursor-pointer hover:bg-Orange">
+            <p class="p-2 text-White text-pretty">Minicargadora</p>
+            <img src="/public/IMGS/Maquinaria/Excavadora.webp" alt="Minicargadora Image">
+        </article>
+    </div>
+  </section>
+  <Nav/>
+</Layout>

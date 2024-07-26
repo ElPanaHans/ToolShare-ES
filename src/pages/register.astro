@@ -1,0 +1,56 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="ToolShare ES Register">
+  <h1 class="text-4xl font-bold text-center pt-10 text-Black font-Poppins">
+    Tool Share ES
+  </h1>
+  <img src="/public/Logos/LogoSF.png" alt="Logo" class="w-[80%] m-auto" />
+  <form action="#" class="flex flex-col px-10">
+    <label for="nombreEmpresa" class="pl-4 text-sm font-bold font-Poppins"
+      >Nombre empresa*</label
+    >
+    <input
+      type="text"
+      name="nombreEmpresa"
+      class="text-white py-2 rounded-lg text-sm mb-4 bg-Blue pl-5"
+    />
+
+    <label for="tel" class="pl-4 text-sm font-bold font-Poppins"
+      >Telefono*</label
+    >
+    <input
+      type="text"
+      name="tel"
+      class="text-white py-2 rounded-lg text-sm mb-4 bg-Blue pl-5"
+    />
+
+    <label for="Email" class="pl-4 text-sm font-bold font-Poppins">Email*</label
+    >
+    <input
+      type="email"
+      name="email"
+      class="text-white py-2 rounded-lg text-sm mb-4 bg-Blue pl-5"
+    />
+
+    <label for="Password" class="pl-4 text-sm font-bold font-Poppins"
+      >Password*</label
+    >
+    <input
+      type="password"
+      name="Password"
+      class="text-white py-2 rounded-lg text-sm mb-4 bg-Blue pl-5"
+    />
+    <a
+      href="#"
+      class="text-white text-center rounded-lg text-md px-2 py-1 bg-Orange"
+      >Registrarse</a
+    >
+    <a
+      href="#"
+      class="text-white text-center my-4 rounded-lg text-md px-2 py-1 bg-Blue"
+      >Iniciar sesión</a
+    >
+  </form>
+</Layout>
